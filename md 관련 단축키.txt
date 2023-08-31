@@ -1,0 +1,46 @@
+https://gist.github.com/ihoneymon/652be052a0727ad59601
+
+crtl+shift+v : md 파일 미리보기.
+crtl+s : 저장
+
+=======================이미지 관련 문법 ========================================================================
+
+이미지 넣기 크기조절 불가능
+![캡처](/img/pyside6_venv%EC%84%A4%EC%B9%98.JPG)
+
+크기조절 가능  ~ 를 붙여야가능// 주의!! 
+".." 은 현재 작성중인 파일의 상위 폴더로 이동한다는 뜻.
+<img src="~/../../img/전원%20공급%20모듈.jpg"  width="200" height="100">
+
+이미지 사이트에서 불러와서 쓰기 (md파일을 어디에 올리든 이미지가 생성)
+![LYNMP 로고](https://github.com/MG-Jang/img/blob/main/talkerlistener.JPG?raw=true "LYMNP 로고")
+
+사이트에서 불러온후 크기 조정해서 올리기
+<img src="https://github.com/MG-Jang/img/blob/main/ros-simulator.JPG?raw=tru"  width="500" height="300">
+
+=================================================================================
+
+만약 작성중인 파일과 동일한 위치에 이미지가 존재하는 경우 아래 예시 처럼 작성하면 됨
+<img src="self-project.JPG"  width="700" height="70"> 
+
+색상넣기
+<span style="color:orange">printw를 쓴뒤 꼭 써주자</span>
+
+줄긋기
+<hr/>
+
+---
+title: "Sort"
+last_modified_at: 2022-05-19
+---
+
+---
+title: "Sort"
+excerpt: "Study for Sort"
+excerpt_separator: "<!--more-->"
+categories:
+  - Sort
+tags:
+  - Basic
+last_modified_at: 2022-03-10T14:42:00
+---

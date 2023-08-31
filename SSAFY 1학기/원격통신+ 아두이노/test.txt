@@ -1,0 +1,22 @@
+#define LED_1_PIN 17
+#define LED_2_PIN 16
+
+#define INTERVAL 100
+
+void setup() {
+  // put your setup code here, to run once:
+    pinMode(LED_1_PIN, OUTPUT);
+    pinMode(LED_2_PIN, OUTPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(LED_1_PIN,LOW);
+  digitalWrite(LED_2_PIN,HIGH);
+  delay(INTERVAL);
+  
+  digitalWrite(LED_1_PIN,HIGH);
+  digitalWrite(LED_2_PIN,LOW);
+  delay(INTERVAL);
+}

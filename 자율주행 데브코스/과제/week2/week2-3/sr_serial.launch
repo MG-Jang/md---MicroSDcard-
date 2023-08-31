@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="msg_send" type="receiver_serial.py" name="receiver1" output="screen"/>
+	<node pkg="msg_send" type="receiver_serial.py" name="receiver2" output="screen"/>
+	<node pkg="msg_send" type="receiver_serial.py" name="receiver3" output="screen"/>
+	<node pkg="msg_send" type="sender_serial.py" name="sender">
+		<param name="number" value="3"/>
+	</node>
+</launch>
